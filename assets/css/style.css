@@ -6,21 +6,29 @@ body {
     background-color: #4aaaa5;
     color: #ffffff;
     width: 185px;
-    margin: left;
-    padding: 2%;
+    float: left;
+    margin: 1%;
+    padding: .8%;
+    position: relative;
+    left: 260px;
+    bottom: 14px;
 }
 
 .mainHeader {
     background-color: #ffffff;
     border-style: outset;
     border-color: #cccccc;
-    width: 960px;
+    margin: auto;
+    padding: 30px;
 
 }
 
 .footer{
     background-color: #666666;
     display: block;
+    padding: 0px
+    align-content: center;
+    margin: auto;
 }
 
 .mainContent {
@@ -31,6 +39,7 @@ body {
     flex-wrap: wrap;
     color: #777777;
     margin: auto;
+    padding-top: 0px;
 }
 
 .image {
