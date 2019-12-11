@@ -1,0 +1,60 @@
+body {
+    background-image: url(../images/5-dots.png)
+}
+
+.header {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 185px;
+    margin: left;
+    padding: 2%;
+}
+
+.mainHeader {
+    background-color: #ffffff;
+    border-style: outset;
+    border-color: #cccccc;
+    width: 960px;
+
+}
+
+.footer{
+    background-color: #666666;
+    display: block;
+}
+
+.mainContent {
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #dddddd;
+    width: 960px;
+    flex-wrap: wrap;
+    color: #777777;
+    margin: auto;
+}
+
+.image {
+    height: 250px;
+    width: 350px;
+    align-content: left;
+}
+
+.links {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    display: inline;
+    float: right;
+
+}
+
+.mainContentHeader {
+    color: #4aaaa5;
+}
+
+.line {
+    color: #dddddd;
+
+}
