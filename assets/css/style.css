@@ -121,6 +121,9 @@ li {
     position: relative;
     text-align: center;
     color: white;
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 12%;
   }
 
   .portfolioBanner {
@@ -136,4 +139,23 @@ li {
     display: flex;
     padding: 5px;
     margin: auto;
+}
+
+.message {    
+    width: 900px;
+    height: 90px;
+    color: #cccccc;
+}
+
+.notes {
+    width: 900px;
+    color: #cccccc;
+}
+
+.submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 40px;
+    width: 70px;
+    text-align: center;
 }
