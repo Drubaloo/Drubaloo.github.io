@@ -26,13 +26,15 @@ body {
 .footer{
     background-color: #666666;
     display: block;
-    padding: 0px
+    padding: 0px;
     align-content: center;
     margin: auto;
-    border-top: 4px solid;
+    border-top: 8px solid;
     border-color: #4aaaa5;
     position: relative;
-    top: 90px;
+    top: 70px;
+    display: flex;
+    align-items: center;
 }
 
 .mainContent {
@@ -46,12 +48,14 @@ body {
     padding-top: 0px;
     position: relative;
     top: 25px;
+    
 }
 
 .image {
     height: 250px;
     width: 350px;
     align-content: left;
+    
 }
 
 .navbar {
@@ -76,6 +80,8 @@ body {
 .navbarText {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    text-decoration: none;
+    font-size: large;
 
 }
 
@@ -85,9 +91,49 @@ margin:0;
 padding:0;
 position:relative;
 display:inline-block;
+
 }
 
 li {
     float: right;
     display: inline-block;
+    position: relative;
+    right: 50px;
+    top: 10px;
+    padding: 15px;
+}
+
+.rightBorder {
+    border-right: solid #cccccc;
+}
+
+.footerText { 
+    float: center;
+    text-align: center;
+}
+
+.mainText {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    vertical-align: right;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .portfolioBanner {
+      position: absolute;
+      text-align: center;
+      background-color: #4aaaa5;
+
+  }
+
+.portfolioImage {
+    height: 120px;
+    width: 150px;
+    display: flex;
+    padding: 5px;
+    margin: auto;
 }
