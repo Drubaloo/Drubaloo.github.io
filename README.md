@@ -1,2 +1,2 @@
 # Portfolio
-Portfolio for school
+A good look at my possibilities.
