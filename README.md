@@ -1,4 +1,7 @@
 # Portfolio
+<<<<<<< HEAD
+My personal website
+=======
 A good look at my possibilities.
 
 Took a while to get everything lined up how I wanted. 
@@ -11,3 +14,4 @@ probably shouldn't have used a list to display the navbar but I have already fix
 
 links act weird on hover. 
 
+>>>>>>> added media queries for small devices
