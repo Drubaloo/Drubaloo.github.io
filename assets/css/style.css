@@ -303,10 +303,10 @@ li {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 812px) {
     .mainContent {
         max-width: 118%;
-        height: 50rem;
+        height: 100%;
         align-content: center;
     }
 
@@ -330,9 +330,9 @@ li {
     }
 
     .navbar {
-        width: 200%;
+        width: 210%;
         margin: auto;
-        margin-right: -2rem;
+        margin-right: -4rem;
         background-color: #ffffff;
     }
 
@@ -342,6 +342,7 @@ li {
 
     body {
         width: 320px;
+        height: 60rem;
     }
 
     .mainContentPortfolio {
@@ -359,6 +360,21 @@ li {
         padding-top: 0px;
         margin-bottom: 25px;
             
+    }
+
+    .topParagraph {
+      float: left;
+      right: 2rem;
+      top: 25rem;
+      font-size: medium;
+      width: 80%;
+    }
+
+    .mainText {
+        margin-top: 29rem;
+        margin-left: 2rem;
+        width: 80%;
+        font-size: medium;
     }
 
     .pic1 {            
@@ -441,6 +457,19 @@ li {
 
     .message {
         width: auto;
+    }
+
+    .contactText {
+        text-align: center;
+    }
+
+    .image {
+        height: 250px;
+        width: 350px;
+        margin-left: 5%;
+        float: left;
+        
+        
     }
 }
 

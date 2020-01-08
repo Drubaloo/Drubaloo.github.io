@@ -1,17 +1,42 @@
-# Portfolio
-<<<<<<< HEAD
-My personal website
-=======
-A good look at my possibilities.
+# Portfolio project
 
-Took a while to get everything lined up how I wanted. 
+A testing ground for my first website to showcase what I will be able to do as I grow.
 
-getting the footer to appear as I wanted proved to be difficult. 
+I deployed this website on github.
 
-the name wouldn't remain as I wanted but I can fix that in bootstrap. 
+Built With
 
-probably shouldn't have used a list to display the navbar but I have already fixed that with my second try with bootstrap. 
+    HTML
+    CSS
 
-links act weird on hover. 
+ Built for 
+    Responsive design, 
+        Regular screen size IE - Laptop - Monitor
+        Phone Screens - Iphone X
+        Ipad Screen
 
->>>>>>> added media queries for small devices
+Testing was done with Google Chrome inspect function,
+
+
+
+I used Github as version control
+Authors
+
+    Dru Sanchez
+
+
+License
+
+I don't have any license except intellectual property
+
+Acknowledgments
+
+    Hat tip to anyone whose code was used
+    Inspiration
+    
+
+
+
+Notes:
+This is a very basic website with very basic responsivness added.
+future websites will be built with responsivness in mind  
